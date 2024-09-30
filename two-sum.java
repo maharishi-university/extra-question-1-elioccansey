@@ -5,4 +5,5 @@ public int[] twoSum(int[] nums, int target){
         if(map.containsKey(key)) return new int[] {i, key};
         map.put(nums[i], i);
     }
+    return new int[]{};
 }
